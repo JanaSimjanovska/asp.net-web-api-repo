@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lotto3000App.DataAccess\Lotto3000App.DataAccess.csproj" />
+    <ProjectReference Include="..\Lotto3000App.Mappers\Lotto3000App.Mappers.csproj" />
+    <ProjectReference Include="..\Lotto3000App.Models\Lotto3000App.Models.csproj" />
+    <ProjectReference Include="..\Lotto3000App.Shared\Lotto3000App.Shared.csproj" />
+    <ProjectReference Include="..\Lotto3000App.Validators\Lotto3000App.Validators.csproj" />
+  </ItemGroup>
+
+</Project>
