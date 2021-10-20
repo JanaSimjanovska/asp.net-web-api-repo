@@ -23,7 +23,7 @@ namespace Lotto3000App.Controllers
             _adminService = adminService;
         }
 
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost("register")]
         public IActionResult RegisterAdmin([FromBody] RegisterUserModel registerUserModel)
         {
